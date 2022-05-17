@@ -28,7 +28,7 @@ const Pokemon = ({pokemon}) => {
 
                     ))}</p>
                     
-                    <p className="mb-1 leading-relaxed"><strong>Height:</strong> {pokemon.height}" <span><strong>Weight:</strong> {pokemon.weight} Kg</span></p>
+                    <p className="mb-1 leading-relaxed"><strong>Height:</strong> {pokemon.height} <span><strong>Weight:</strong> {pokemon.weight} Kg</span></p>
                     <div className="flex justify-center">
                         <Link href="/"><button className="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Back</button></Link>
                     </div>
