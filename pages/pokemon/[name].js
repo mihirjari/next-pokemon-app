@@ -22,7 +22,7 @@ const Pokemon = ({pokemon}) => {
 
                     <p className="mb-1 leading-relaxed">{pokemon.stats.map((stat, index) => (
 
-                        <div>
+                        <div key={index}>
                             <strong>{stat.stat.name}:</strong> {stat.base_stat}
                         </div>
 
