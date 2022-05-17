@@ -43,7 +43,8 @@ const Pokemon = ({pokemon}) => {
 export const getServerSideProps = async (context) => {
 
     const {name} = context.query;
-    const res = await fetch(`${process.env.API}/${name}`);
+    //const res = await fetch(`${process.env.API}/${name}`);
+    const res = await fetch(process.env.API+"/"+name);
     const pokemon = await res.json();
 
     return {

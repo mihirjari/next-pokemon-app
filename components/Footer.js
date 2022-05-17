@@ -9,7 +9,7 @@ const Footer = () => {
                 <div className="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
                     <Link href="/">
                         <a className="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
-                        <Image src="/pokemon.png" height={90} width={120} />
+                        <Image src="/pokemon.png" height={90} width={120} alt="Pokemon Logo" />
                         <span className="ml-3 text-xl">The Pokemon App</span>
                         </a>
                     </Link>
